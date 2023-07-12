@@ -16,6 +16,7 @@ Therefore, in the machine learning project, we hope to develop an accurate model
 
 ## 2. Data Understanding
 The credit line increase data was loaded via google collab file. Basic data analysis was performed to identify the shape of data, get column names, find missing values, and generate descriptive statistics. The Pearson correlation matrix was calculated to find the pairwise correlation of the columns in the data. All columns in the data are visually represented as histograms. A correlation heatmap figure was generated to represent the correlation matrix.
+![Statistics](https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/data%20statistics.jpg)
 
 ##### Correlation Heatmap
 ![Heat Map](https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/heatmap.jpg)
@@ -36,6 +37,9 @@ The data is partitioned into training, validation, and test sets (50%, 25%, 25% 
 * **Adaboost**
 
 ## 5. Evaluation
-![Heat Map](https://user-images.githubusercontent.com/111590512/185942386-95eece6c-45d5-483b-a582-e665e5cfa083.png)
+![Summary table](https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/evaluation.jpg)
 
-## 6. Reference
+## 6. Business Value
+![Business Value](https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/business%20value.jpg)
+
+## 7. Reference
