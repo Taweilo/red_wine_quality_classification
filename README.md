@@ -10,10 +10,10 @@ With an improved method, we can use prediction and make different offers: high-q
 In addition, we sell wine at $150 for good wine but $60 for bad wine. 
 
 For each type of wine predicted, we have the profits($) as below:<br>    
-    TP = 150-100=50<br>   
-    FP = 60-100=-40<br>   
-    TN = 60-50=10<br>   
-    FN = 150-50=100<br>   
+    TP = 150-100=50 (predict good wine and get one)<br>   
+    FP = 60-100=-40 (predict good wine but did not correct)<br>   
+    TN = 60-50=10   (predict bad wine and get one)<br>   
+    FN = 150-50=100 (predict bad wine but luckily get good wine)<br>   
 Therefore, in the machine learning project, we hope to develop an accurate model which can 1) predict the wine quality well and 2) maximize the profits.
 
 ## 2. Data Understanding
