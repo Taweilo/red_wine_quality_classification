@@ -39,11 +39,9 @@ The data is partitioned into training, validation, and test sets (50%, 25%, 25% 
 * **Adaboost**
 
 ## 5. Evaluation
-![Summary table](https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/evaluation.jpg)
  <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/evaluation.jpg" width="600" >
 
 ## 6. Business Value
-![Business Value](https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/business%20value.jpg)
  <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/business%20value.jpg" width="600" >
 
 ## 7. Reference
