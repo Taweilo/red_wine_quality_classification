@@ -49,7 +49,9 @@ Basic data analysis was performed to identify the shape of data, get column name
 
 
 ## 3. Data Preparation
-The data is partitioned into training, validation, and test sets (50%, 25%, 25% respectively) to accurately evaluate the model. Testing data which is a separate set of data is used to test the model after training, to help us determine how the model will perform in the real world. We trained 12 different models using decision trees and calculated the ROC AUC for each model. 
+The data is partitioned into training, and test sets (60% and 40% respectively) to accurately evaluate the model. Testing data which is a separate set of data is used to test the model after training. 
+* Y target variable is Quality Score. It's binary.
+* X independent variables include fixed acidity, volatile acidity, citric acid, residual sugar, chlorides, free sulfur dioxide, total sulfur dioxide, density, pH, sulfates, and alcohol. It's continuous.
 
 ## 4. Modeling
 * SVC
@@ -64,7 +66,7 @@ The data is partitioned into training, validation, and test sets (50%, 25%, 25% 
  <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/evaluation.jpg" width="600" >
 
 ## 6. Business Value
-From the below graph, we can easily compare the business value between ml model (RF classifier) and non-ml model: by considering the relationship of the true positive rate and expected profits on two models. 
+From the below graph, we can easily compare the business value between the ml model (RF classifier) and the non-ml model: by considering the relationship between the true positive rate and expected profits on the two models. 
 * RF classifier performance is better than the non-ml model
 * True positive rate has a positive relationship with expected profits because more good wine in the population yields more profits. Detail check with the information below the graph. 
   
