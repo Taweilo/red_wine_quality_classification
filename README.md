@@ -1,4 +1,5 @@
 # Red Wine Quality Prediction
+![Red Wine](https://learn.wineenthusiast.com/wp-content/uploads/2019/09/HeaderImage.svg)
 
 ## 1. Business Understanding
 This project will follow the BA workflow to tackle red wine business issues using data mining techniques. A red wine retailer imports wine and sells it to customers. Thus, it needs to predict the wine quality for the business. Via machine learning techniques, we can classify and predict the quality. By evaluating the model performance, we can further make better decisions and thus maximize the profits.
