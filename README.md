@@ -7,12 +7,12 @@ Before the machine learning model, we can only buy wine at a fixed price of $75 
 With an improved method, we can use prediction to import high-quality wine for $100, and low quality $50.
 In addition, we sell wine at $150 for good wine but $60 for bad wine. 
 
-For each type of wine predicted, we have the profits () as below:    
-    TP = 150-100=50
-    FP = 60-100=-40
-    TN = 60-50=10
-    FN = 150-50=100
-Therefore, in the machine learning project, we hope to develop a accurate model which can 1) predict the wine quality well and 2) maximize the profits.
+For each type of wine predicted, we have the profits($) as below:<br>    
+    TP = 150-100=50<br>   
+    FP = 60-100=-40<br>   
+    TN = 60-50=10<br>   
+    FN = 150-50=100<br>   
+Therefore, in the machine learning project, we hope to develop an accurate model which can 1) predict the wine quality well and 2) maximize the profits.
 
 ## 2. Data Understanding
 The credit line increase data was loaded via google collab file. Basic data analysis was performed to identify the shape of data, get column names, find missing values, and generate descriptive statistics. The Pearson correlation matrix was calculated to find the pairwise correlation of the columns in the data. All columns in the data are visually represented as histograms. A correlation heatmap figure was generated to represent the correlation matrix.
