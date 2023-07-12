@@ -65,8 +65,9 @@ The data is partitioned into training, and test sets (60% and 40% respectively) 
 
 ## 6. Business Value
 From the below graph, we can easily compare the business value between the ml model (RF classifier) and the non-ml model: by considering the relationship between the true positive rate and expected profits on the two models. 
-* RF classifier performance is better than the non-ml model
-* True positive rate has a positive relationship with expected profits because more good wine in the population yields more profits. Detail check with the information below the graph. 
+* RF classifier performance is better than the non-ml model.
+* True positive rate has a positive relationship with expected profits because more good wine in the population yields more profits. Detail check with the information below the graph.
+* Under the extreme case where the true positive rate is 0, meaning no good wine in the population, the non-ml model suffers a loss but the ml model can still make a profit. It's because ml model can predict red wine quality and discriminate the price. However, the non-ml model only produces one and only offer which is $75. Buy high sell low incurs a loss. 
   
  <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/business%20value.jpg" width="600" >
 
