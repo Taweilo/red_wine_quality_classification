@@ -64,6 +64,10 @@ The data is partitioned into training, validation, and test sets (50%, 25%, 25% 
  <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/evaluation.jpg" width="600" >
 
 ## 6. Business Value
+From the below graph, we can easily compare the business value between ml model (RF classifier) and non-ml model: by considering the relationship of the true positive rate and expected profits on two models. 
+* RF classifier performance is better than the non-ml model
+* True positive rate has a positive relationship with expected profits because more good wine in the population yields more profits. Detail check with the information below the graph. 
+  
  <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/business%20value.jpg" width="600" >
 
 ## 7. Reference
