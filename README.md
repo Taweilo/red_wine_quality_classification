@@ -21,10 +21,10 @@ The credit line increase data was loaded via google collab file. Basic data anal
 
 
 ##### Correlation Heatmap
- <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/heatmap.jpg" width="700" >
+ <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/heatmap.jpg" width="600" >
 
 ##### Quality Distribution
-![Heat Map](https://user-images.githubusercontent.com/111590512/185942386-95eece6c-45d5-483b-a582-e665e5cfa083.png| width=400)
+
 
 ## 3. Data Preparation
 The data is partitioned into training, validation, and test sets (50%, 25%, 25% respectively) to accurately evaluate the model. Testing data which is a separate set of data is used to test the model after training, to help us determine how the model will perform in the real world. We trained 12 different models using decision trees and calculated the ROC AUC for each model. 
@@ -40,8 +40,10 @@ The data is partitioned into training, validation, and test sets (50%, 25%, 25% 
 
 ## 5. Evaluation
 ![Summary table](https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/evaluation.jpg)
+ <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/evaluation.jpg" width="600" >
 
 ## 6. Business Value
 ![Business Value](https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/business%20value.jpg)
+ <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/business%20value.jpg" width="600" >
 
 ## 7. Reference
