@@ -3,8 +3,10 @@
 This project will follow the BA workflow to tackle red wine business issues using data mining techniques. A red wine retailer imports wine and sells it to customers. Thus, it needs to predict the wine quality for the business. Via machine learning techniques, we can classify and predict the quality. By evaluating the model performance, we can further make better decisions and thus maximize the profits.
 
 ## 1. Business Understanding
-Before the machine learning model, we can only buy wine at a fixed price of $75 for all wine. 
-With an improved method, we can use prediction to import high-quality wine for $100, and low quality $50.
+The problem for the Red Wine industry is to import wine based on limited information. Applying the machine learning technique, we can a model for wine quality prediction, according to its chemical content. The merit of the machine learning method is cost-effective and simple (not much domain knowledge is required). Below is the number we make up for the profits evaluation:
+
+Without the machine learning model, we can only buy wine at a fixed price of $75 for all wine. 
+With an improved method, we can use prediction and make different offers: high-quality wine for $100, and low-quality for $50.
 In addition, we sell wine at $150 for good wine but $60 for bad wine. 
 
 For each type of wine predicted, we have the profits($) as below:<br>    
