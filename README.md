@@ -52,13 +52,13 @@ Basic data analysis was performed to identify the shape of data, get column name
 The data is partitioned into training, validation, and test sets (50%, 25%, 25% respectively) to accurately evaluate the model. Testing data which is a separate set of data is used to test the model after training, to help us determine how the model will perform in the real world. We trained 12 different models using decision trees and calculated the ROC AUC for each model. 
 
 ## 4. Modeling
-* **SVC**
-* **Logistic regression**
-* **KNN**
-* **Decision Tree**
-* **Random Forest**
-* **Random Forest with Tuning**
-* **Adaboost**
+* SVC
+* Logistic regression
+* KNN
+* Decision Tree
+* Random Forest
+* Random Forest with Tuning
+* Adaboost
 
 ## 5. Evaluation
  <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/evaluation.jpg" width="600" >
