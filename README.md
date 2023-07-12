@@ -1,8 +1,9 @@
 # Red Wine Quality Prediction
 ![Red Wine](https://learn.wineenthusiast.com/wp-content/uploads/2019/09/HeaderImage.svg)
+This project will follow the BA workflow to tackle red wine business issues using data mining techniques. A red wine retailer imports wine and sells it to customers. Thus, it needs to predict the wine quality for the business. Via machine learning techniques, we can classify and predict the quality. By evaluating the model performance, we can further make better decisions and thus maximize the profits.
 
 ## 1. Business Understanding
-This project will follow the BA workflow to tackle red wine business issues using data mining techniques. A red wine retailer imports wine and sells it to customers. Thus, it needs to predict the wine quality for the business. Via machine learning techniques, we can classify and predict the quality. By evaluating the model performance, we can further make better decisions and thus maximize the profits.
+
 
 ## 2. Data Understanding
 The credit line increase data was loaded via google collab file. Basic data analysis was performed to identify the shape of data, get column names, find missing values, and generate descriptive statistics. The Pearson correlation matrix was calculated to find the pairwise correlation of the columns in the data. All columns in the data are visually represented as histograms. A correlation heatmap figure was generated to represent the correlation matrix.
