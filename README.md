@@ -62,10 +62,10 @@ The data is partitioned into training, and test sets (60% and 40% respectively) 
 
 ## 5. Evaluation
  <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/evaluation2.jpg" width="600" >
-From the summary table, we can observe that AUC is not necessary to associate with high profits. <br>
+From the summary table, we can observe that AUC is not necessary to associate with high profits. 
 * SVC has a low AUC score but yields the highest profits. However, AdaBoost has the highest AUC score but yields the lowest profits.
-
-* RF classifier performance is better than the non-ml model.
+* The reason for low accuracy but high profits mainly is the inaccurate prediction. False negative yields $100, because the model predicts poor wine but it's good wine actually.
+* Considering high AUC and high expected profits, Random Forest could be a good model.
 
 ## 6. Business Value
 From the below graph, we can easily compare the business value between the ml model (RF classifier) and the non-ml model: by considering the relationship between the true positive rate and expected profits on the two models. 
