@@ -46,7 +46,7 @@ Dataset is from Kaggle: https://www.kaggle.com/datasets/yasserh/wine-quality-dat
  <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/heatmap.jpg" width="600" >
 
 * Quality Distribution
- <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/Quality%20Distribution.jpg" width="600" >  
+ <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/Quality%20Distribution.jpg" width="400" >  
 
 | Quality Score |   3 |   4 |   5 |   6 |   7 |   8 |
 | ------------- | --- | --- | --- | --- | --- | --- |
