@@ -23,7 +23,6 @@ Dataset is from Kaggle: https://www.kaggle.com/datasets/yasserh/wine-quality-dat
 
 * Data dictionary: 
 | Name | Modeling Role | Measurement Level| Description|
-| ---- | ------------- | ---------------- | ---------- |
 | **fixed acidity** | input | float | unique row indentifier |
 | **volatile acidity** | input | float | amount of previously awarded credit |
 | **citric acid** | input | float | 1 = male; 2 = female
