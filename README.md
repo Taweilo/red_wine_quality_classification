@@ -4,6 +4,7 @@ This project will follow the BA workflow to tackle red wine business issues usin
 Overall, the Radom Forest classification model maximizes profits the most. Considering the non-ml and ml model, ml model always performs better than the non-ml model under different true positive rate conditions. 
 
 ### Repository structure
+
 ├── Image
 │   ├── business value.jpg                        <- image used in the README.
 │   ├── data statistics.jpg                       <- data statistics summary used in the README.
