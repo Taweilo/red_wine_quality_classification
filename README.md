@@ -65,6 +65,7 @@ The data is partitioned into training, and test sets (60% and 40% respectively) 
 From the summary table, we can observe that AUC is not necessary to associate with high profits. <br>
 * SVC has a low AUC score but yields the highest profits. However, AdaBoost has the highest AUC score but yields the lowest profits.
 * 
+* RF classifier performance is better than the non-ml model.
 
 ## 6. Business Value
 From the below graph, we can easily compare the business value between the ml model (RF classifier) and the non-ml model: by considering the relationship between the true positive rate and expected profits on the two models. 
