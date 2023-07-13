@@ -47,7 +47,7 @@ Dataset is from Kaggle: https://www.kaggle.com/datasets/yasserh/wine-quality-dat
 
 * Quality Distribution
 
-| Quality Score | 3 | 4 | 5 | 6 | 7 | 8 |
+| Quality Score |   3 |   4 |   5 |   6 |   7 |   8 |
 | ------------- | --- | --- | --- | --- | --- | --- |
 | **Count** | 483 | 462 | 143 | 33 | 16 | 6 |
 
