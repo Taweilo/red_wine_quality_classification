@@ -24,19 +24,19 @@ Dataset is from Kaggle: https://www.kaggle.com/datasets/yasserh/wine-quality-dat
 * Data dictionary:
 
 | Name | Modeling Role | Measurement Level| Description|
-| **fixed acidity** | input | float | unique row indentifier |
-| **volatile acidity** | input | float | amount of previously awarded credit |
-| **citric acid** | input | float | 1 = male; 2 = female
-| **residual sugar** | input | float | 1 = hispanic; 2 = black; 3 = white; 4 = asian |
-| **chlorides** | input | float | 1 = graduate school; 2 = university; 3 = high school; 4 = others |
-| **free sulfur dioxide** | input | float | 1 = married; 2 = single; 3 = others |
-| **total sulfur dioxide** | input | float | age in years |
-| **density** | input | float | history of past payment; PAY_0 = the repayment status in September, 2005; PAY_2 = the repayment status in August, 2005; ...; PAY_6 = the repayment status in April, 2005. The measurement scale for the repayment status is: -1 = pay duly; 1 = payment delay for one month; 2 = payment delay for two months; ...; 8 = payment delay for eight months; 9 = payment delay for nine months and above |
+| **fixed acidity** | input | float | uThe amount of non-volatile acids (such as tartaric, malic, and succinic acid). These acids are important for flavor and stability, and can contribute to the wine's tartness or sourness. However, too much acidity can also make the wine taste sour or unbalanced. On the other hand, low levels of fixed acidity can make the wine taste flat or dull. |
+| **volatile acidity** | input | float | Taste measure, sign of winemaking quality. Higher – less control over taste. |
+| **citric acid** | input | float | Not typically present in significant amounts in wine, but it can be added during winemaking to adjust the wine's acidity or enhance its flavor profile. Citric acid can contribute a bright, citrusy note to the wine, which can be desirable in some styles of white wine, rosé, or sparkling wine. |
+| **residual sugar** | input | float | The amount of natural grape sugars that remain in the wine after fermentation is complete |
+| **chlorides** | input | float | The level of chlorides in wine can have an impact on the sensory characteristics of the wine, as well as its overall quality. |
+| **free sulfur dioxide** | input | float | A type of sulfur dioxide that is present in wine. SO2 is added to wine during the winemaking process to protect the wine from oxidation and microbial spoilage. |
+| **total sulfur dioxide** | input | float | The sum of the free and bound forms of sulfur dioxide that are present in the wine. |
+| **density** | input | float | Density can be used to determine the alcohol content and sugar content. |
 | **pH** | input | float | amount of bill statement; BILL_AMNT1 = amount of bill statement in September, 2005; BILL_AMT2 = amount of bill statement in August, 2005; ...; BILL_AMT6 = amount of bill statement in April, 2005 |
-| **sulfates** | input | float | amount of previous payment; PAY_AMT1 = amount paid in September, 2005; PAY_AMT2 = amount paid in August, 2005; ...; PAY_AMT6 = amount paid in April, 2005 |
-| **alcohol**| input | float | whether a customer's next payment is delinquent (late), 1 = late; 0 = on-time |
-| **id**| ID | int | whether a customer's next payment is delinquent (late), 1 = late; 0 = on-time |
-| **quality_score**| target | int | whether a customer's next payment is delinquent (late), 1 = late; 0 = on-time |
+| **sulfates** | input | float | A chemical compound that occurs naturally at low levels during the process of wine fermentation. It is also added by many winemakers during the fermentation stage of winemaking to protect and preserve the wine's character, flavor, and color. |
+| **alcohol**| input | float | The average alcohol content of wine is about 12%. |
+| **id**| ID | int | The unique number of each row. |
+| **quality_score**| target | int | Binary value; Good wine = 1, Bad wine = 0 |
 
 * Statistics
  <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/data%20statistics.jpg" width="700" >
