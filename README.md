@@ -69,7 +69,7 @@ Dataset is from Kaggle: https://www.kaggle.com/datasets/yasserh/wine-quality-dat
 * Adaboost
 
 ## 5. Evaluation
- <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/evaluation2.jpg" width="600" >
+ <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/evaluation2.jpg" width="500" >
 From the summary table, we can observe that AUC is not necessary to associate with high profits.
 
 * SVC has a low AUC score but yields the highest profits. However, AdaBoost has the highest AUC score but yields the lowest profits.
