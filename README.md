@@ -40,7 +40,6 @@ Dataset is from Kaggle: https://www.kaggle.com/datasets/yasserh/wine-quality-dat
 ##### Statistics
  <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/data%20statistics.jpg" width="700" >
 
-
 ##### Correlation Heatmap
  <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/heatmap.jpg" width="600" >
 
@@ -63,6 +62,9 @@ The data is partitioned into training, and test sets (60% and 40% respectively) 
 
 ## 5. Evaluation
  <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/evaluation2.jpg" width="600" >
+From the summary table, we can observe that AUC is not necessary to associate with high profits. 
+* SVC has a low AUC score but yields the highest profits. However, AdaBoost has the highest AUC score but yields the lowest profits.
+* 
 
 ## 6. Business Value
 From the below graph, we can easily compare the business value between the ml model (RF classifier) and the non-ml model: by considering the relationship between the true positive rate and expected profits on the two models. 
