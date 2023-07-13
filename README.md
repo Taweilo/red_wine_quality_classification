@@ -30,14 +30,14 @@ Dataset is from Kaggle: https://www.kaggle.com/datasets/yasserh/wine-quality-dat
 | **Citric Acid** | input | float | Not typically present in significant amounts in wine, but it can be added during winemaking to adjust the wine's acidity or enhance its flavor profile. Citric acid can contribute a bright, citrusy note to the wine, which can be desirable in some styles of white wine, rosé, or sparkling wine. |
 | **Residual Sugar** | input | float | The amount of the natural grape sugars that remain in the wine after fermentation is complete |
 | **Chlorides** | input | float | The level of chlorides in wine can have an impact on the sensory characteristics of the wine, as well as its overall quality. |
-| **Free Sulfur Dioxide** | input | float | A type of sulfur dioxide that is present in wine. SO2 is added to wine during the winemaking process to protect the wine from oxidation and microbial spoilage. |
+| **Free Sulfur Dioxide** | input | float | A type of sulfur dioxide presents in wine. SO2 is added to wine during the winemaking process to protect the wine from oxidation and microbial spoilage. |
 | **Total Sulfur Dioxide** | input | float | The sum of the free and bound forms of sulfur dioxide that are present in the wine. |
 | **Density** | input | float | Density can be used to determine the alcohol content and sugar content. |
 | **pH** | input | float | 	pH is an important parameter that can affect the wine's stability, color, aroma, and taste. A wine with a low pH tends to be more refreshing, and age-worthy, while a wine with a high pH may be flatter, or dull |
 | **Sulfates** | input | float | A chemical compound that occurs naturally at low levels during the process of wine fermentation. It is also added by many winemakers during the fermentation stage of winemaking to protect and preserve the wine's character, flavor, and color. |
 | **Alcohol**| input | float | The average alcohol content of wine is about 12%. |
 | **ID**| ID | int | The unique number of each row. |
-| **Quality Score**| target | int | Binary value; Good wine = 1, Bad wine = 0 |
+| **Quality**| potential target | int | Categorical value: range from 3 to 8. During the Data preparation process, we transform into binary values: above 6.5 is good; quall or below 6.5 is inferior.|
 
 * Statistics
  <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/data%20statistics.jpg" width="700" >
@@ -53,7 +53,9 @@ Dataset is from Kaggle: https://www.kaggle.com/datasets/yasserh/wine-quality-dat
 | **Count** | 483 | 462 | 143 | 33 | 16 | 6 |
 
 ## 3. Data Preparation
-The data is partitioned into training, and test sets (60% and 40% respectively) to accurately evaluate the model. Testing data which is a separate set of data is used to test the model after training. 
+
+1. Convert the Quality Score into binary: Good wine = 1, Bad wine = 0.
+2. Split the data: The data is partitioned into training, and test sets (60% and 40% respectively) to accurately evaluate the model. Testing data which is a separate set of data is used to test the model after training. Variable composition: 
 * Y target variable is Quality Score. It's binary.
 * X independent variables include fixed acidity, volatile acidity, citric acid, residual sugar, chlorides, free sulfur dioxide, total sulfur dioxide, density, pH, sulfates, and alcohol. It's continuous.
 
