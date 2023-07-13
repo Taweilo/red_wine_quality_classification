@@ -25,18 +25,18 @@ Dataset is from Kaggle: https://www.kaggle.com/datasets/yasserh/wine-quality-dat
 
 | Name | Modeling Role | Measurement Level| Description|
 | ---- | ------------- | ---------------- | ---------- |
-| **fixed acidity** | ID | int | unique row indentifier |
+| **fixed acidity** | input | float | unique row indentifier |
 | **volatile acidity** | input | float | amount of previously awarded credit |
-| **citric acid** | demographic information | int | 1 = male; 2 = female
-| **residual sugar** | demographic information | int | 1 = hispanic; 2 = black; 3 = white; 4 = asian |
-| **chlorides** | demographic information | int | 1 = graduate school; 2 = university; 3 = high school; 4 = others |
-| **free sulfur dioxide** | demographic information | int | 1 = married; 2 = single; 3 = others |
-| **total sulfur dioxide** | demographic information | int | age in years |
-| **density** | inputs | int | history of past payment; PAY_0 = the repayment status in September, 2005; PAY_2 = the repayment status in August, 2005; ...; PAY_6 = the repayment status in April, 2005. The measurement scale for the repayment status is: -1 = pay duly; 1 = payment delay for one month; 2 = payment delay for two months; ...; 8 = payment delay for eight months; 9 = payment delay for nine months and above |
-| **pH** | inputs | float | amount of bill statement; BILL_AMNT1 = amount of bill statement in September, 2005; BILL_AMT2 = amount of bill statement in August, 2005; ...; BILL_AMT6 = amount of bill statement in April, 2005 |
-| **sulfates** | inputs | float | amount of previous payment; PAY_AMT1 = amount paid in September, 2005; PAY_AMT2 = amount paid in August, 2005; ...; PAY_AMT6 = amount paid in April, 2005 |
-| **alcohol**| target | int | whether a customer's next payment is delinquent (late), 1 = late; 0 = on-time |
-| **id**| target | int | whether a customer's next payment is delinquent (late), 1 = late; 0 = on-time |
+| **citric acid** | input | float | 1 = male; 2 = female
+| **residual sugar** | input | float | 1 = hispanic; 2 = black; 3 = white; 4 = asian |
+| **chlorides** | input | float | 1 = graduate school; 2 = university; 3 = high school; 4 = others |
+| **free sulfur dioxide** | input | float | 1 = married; 2 = single; 3 = others |
+| **total sulfur dioxide** | input | float | age in years |
+| **density** | input | float | history of past payment; PAY_0 = the repayment status in September, 2005; PAY_2 = the repayment status in August, 2005; ...; PAY_6 = the repayment status in April, 2005. The measurement scale for the repayment status is: -1 = pay duly; 1 = payment delay for one month; 2 = payment delay for two months; ...; 8 = payment delay for eight months; 9 = payment delay for nine months and above |
+| **pH** | input | float | amount of bill statement; BILL_AMNT1 = amount of bill statement in September, 2005; BILL_AMT2 = amount of bill statement in August, 2005; ...; BILL_AMT6 = amount of bill statement in April, 2005 |
+| **sulfates** | input | float | amount of previous payment; PAY_AMT1 = amount paid in September, 2005; PAY_AMT2 = amount paid in August, 2005; ...; PAY_AMT6 = amount paid in April, 2005 |
+| **alcohol**| input | float | whether a customer's next payment is delinquent (late), 1 = late; 0 = on-time |
+| **id**| ID | int | whether a customer's next payment is delinquent (late), 1 = late; 0 = on-time |
 | **quality_score**| target | int | whether a customer's next payment is delinquent (late), 1 = late; 0 = on-time |
 
 * Statistics
