@@ -64,7 +64,7 @@ The data is partitioned into training, and test sets (60% and 40% respectively) 
  <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/evaluation2.jpg" width="600" >
 From the summary table, we can observe that AUC is not necessary to associate with high profits. <br>
 * SVC has a low AUC score but yields the highest profits. However, AdaBoost has the highest AUC score but yields the lowest profits.
-* 
+
 * RF classifier performance is better than the non-ml model.
 
 ## 6. Business Value
