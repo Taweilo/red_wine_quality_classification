@@ -40,13 +40,13 @@ Dataset is from Kaggle: https://www.kaggle.com/datasets/yasserh/wine-quality-dat
 | **Quality**| potential target | int | Categorical value: range from 3 to 8. During the Data preparation process, we transform into binary values: above 6.5 is good; quall or below 6.5 is inferior.|
 
 * Statistics
- <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/data%20statistics.jpg" width="700" >
+ <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/data%20statistics.jpg" width="600" >
 
 * Correlation Heatmap
- <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/heatmap.jpg" width="500" >
+ <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/heatmap.jpg" width="400" >
 
 * Quality Distribution
- <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/Quality%20Distribution.jpg" width="500" >  
+ <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/Quality%20Distribution.jpg" width="400" >  
 
 | Quality Score |   3 |   4 |   5 |   6 |   7 |   8 |
 | ------------- | --- | --- | --- | --- | --- | --- |
