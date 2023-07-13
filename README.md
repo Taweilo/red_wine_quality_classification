@@ -5,6 +5,7 @@ Overall, the Radom Forest classification model maximizes profits the most. Consi
 
 ### Repository structure
 
+```
 ├── Image
 │   ├── business value.jpg                        <- image used in the README.
 │   ├── data statistics.jpg                       <- data statistics summary used in the README.
@@ -14,7 +15,7 @@ Overall, the Radom Forest classification model maximizes profits the most. Consi
 │
 ├── Red Wine Classification Project.ipynb         <- Code
 ├── WineQT.csv                                    <- Dataset
-
+```
 
 ## 1. Business Understanding
 The problem for the Red Wine industry is to import wine based on limited information. Applying the machine learning technique, we can a model for wine quality prediction, according to its chemical content. The merit of the machine learning method is cost-effective and simple (not much domain knowledge is required). Below is the number we make up for the profits evaluation:
