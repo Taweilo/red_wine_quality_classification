@@ -47,6 +47,9 @@ Dataset is from Kaggle: https://www.kaggle.com/datasets/yasserh/wine-quality-dat
 
 * Quality Distribution
 
+| Quality Score | 3 | 4 | 5 | 6 | 7 | 8 |
+| ------------- | - | - | - | - | - | - |
+| **Count** | 483 | 462 | 143 | 33 | 16 | 6|
 
 ## 3. Data Preparation
 The data is partitioned into training, and test sets (60% and 40% respectively) to accurately evaluate the model. Testing data which is a separate set of data is used to test the model after training. 
