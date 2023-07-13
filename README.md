@@ -82,9 +82,9 @@ From the below graph, we can easily compare the business value between the ml mo
 2. True positive rate has a positive relationship with expected profits because more good wine in the population yields more profits. Detail check with the information below the graph.
 3. Under the extreme case where the true positive rate is 0, meaning no good wine in the population, the non-ml model suffers a loss but the ml model can still make a profit. It's because ml model can predict red wine quality and discriminate the price. However, the non-ml model only produces one and only offer which is $75. Buy high sell low incurs a loss. 
   <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/business%20value.jpg" width="600" >
+  
 * Limitation: <br>
-1. RF classifier performance is better than the non-ml model.
-2. True positive rate has a positive relationship with expected profits because more good wine in the population yields more profits. Detail check with the information below the graph.
-3. Under the extreme case where the true positive rate is 0, meaning no good wine 
-
-## 7. Reference
+1. RF classifier is neither the most accurate nor the most profitable model. We recommend the user evaluate the business needs. 
+2. The dataset used may not be comprehensive or representative enough for generalization.
+3. The model's ability to predict the wine quality might be limited by the quality and the scope of the data used for training.
+ 
