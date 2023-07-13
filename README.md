@@ -62,7 +62,7 @@ The data is partitioned into training, and test sets (60% and 40% respectively) 
 * Adaboost
 
 ## 5. Evaluation
- <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/evaluation.jpg" width="600" >
+ <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/evaluation2.jpg" width="600" >
 
 ## 6. Business Value
 From the below graph, we can easily compare the business value between the ml model (RF classifier) and the non-ml model: by considering the relationship between the true positive rate and expected profits on the two models. 
