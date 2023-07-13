@@ -43,7 +43,7 @@ Dataset is from Kaggle: https://www.kaggle.com/datasets/yasserh/wine-quality-dat
  <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/data%20statistics.jpg" width="700" >
 
 * Correlation Heatmap
- <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/heatmap.jpg" width="600" >
+ <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/heatmap.jpg" width="500" >
 
 * Quality Distribution
  <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/Quality%20Distribution.jpg" width="400" >  
