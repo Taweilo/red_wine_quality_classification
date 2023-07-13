@@ -54,13 +54,13 @@ Dataset is from Kaggle: https://www.kaggle.com/datasets/yasserh/wine-quality-dat
 | **Quality**| potential target | int | Categorical value: range from 3 to 8. During the Data preparation process, we transform into binary values: above 6.5 is good; quall or below 6.5 is inferior.|
 
 * Statistics
- <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/data%20statistics.jpg" width="600" >
+ <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/Image/data%20statistics.jpg" width="600" >
 
 * Correlation Heatmap
- <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/heatmap.jpg" width="400" >
+ <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/Image/heatmap.jpg" width="400" >
 
 * Quality Distribution
- <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/quality%20distribution.jpg" width="400" >  
+ <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/Image/quality%20distribution.jpg" width="400" >  
 
 | Quality Score |   3 |   4 |   5 |   6 |   7 |   8 |
 | ------------- | --- | --- | --- | --- | --- | --- |
@@ -96,7 +96,7 @@ From the below graph, we can easily compare the business value between the ml mo
 1. RF classifier performance is better than the non-ml model.
 2. True positive rate has a positive relationship with expected profits because more good wine in the population yields more profits. Detail check with the information below the graph.
 3. Under the extreme case where the true positive rate is 0, meaning no good wine in the population, the non-ml model suffers a loss but the ml model can still make a profit. It's because ml model can predict red wine quality and discriminate the price. However, the non-ml model only produces one and only offer which is $75. Buy high sell low incurs a loss. 
-  <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/business%20value.jpg" width="600" >
+  <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/Image/business%20value.jpg" width="600" >
   
 * Limitation: <br>
 1. RF classifier is neither the most accurate nor the most profitable model. We recommend the user evaluate the business needs. 
