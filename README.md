@@ -22,7 +22,6 @@ The Wine Quality data was loaded via Jupyter Notebook.
 Dataset is from Kaggle: https://www.kaggle.com/datasets/yasserh/wine-quality-dataset?resource=download (also please see WineQT.csv attached). Basic data analysis was performed to identify the shape of data, get column names, find missing values, and generate descriptive statistics. The Pearson correlation matrix was calculated to find the pairwise correlation of the columns in the data. All columns in the data are visually represented as histograms. A correlation heatmap figure was generated to represent the correlation matrix.
 
 * Data dictionary: 
-
 | Name | Modeling Role | Measurement Level| Description|
 | ---- | ------------- | ---------------- | ---------- |
 | **fixed acidity** | input | float | unique row indentifier |
@@ -65,7 +64,6 @@ The data is partitioned into training, and test sets (60% and 40% respectively) 
 ## 5. Evaluation
  <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/image/evaluation2.jpg" width="600" >
 From the summary table, we can observe that AUC is not necessary to associate with high profits. 
-
 * SVC has a low AUC score but yields the highest profits. However, AdaBoost has the highest AUC score but yields the lowest profits.
 * The reason for low accuracy but high profits mainly is the inaccurate prediction. False negative yields $100, because the model predicts poor wine but it's good wine actually.
 * Considering high AUC and high expected profits, Random Forest could be a good model.
