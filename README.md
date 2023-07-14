@@ -4,6 +4,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/Taweilo/Red_Wine_Quality_Classification_Model)
 ![Type of ML](https://img.shields.io/badge/Type%20of%20ML-Binary%20Classification-red)
 ![License](https://img.shields.io/badge/License-MIT-green)
+
 Badge [source](https://shields.io/)
 
 ![Red Wine](https://learn.wineenthusiast.com/wp-content/uploads/2019/09/HeaderImage.svg)
