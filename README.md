@@ -15,11 +15,11 @@ Overall, the Radom Forest classification model maximizes profits the most. Consi
 
 ```
 ├── Image
-│   ├── business value.jpg                        <- image used in the README.
-│   ├── data statistics.jpg                       <- data statistics summary used in the README.
-│   ├── evaluation.jpg                            <- model summary table used in the README.
-│   ├── heatmap.jpg                               <- heatmap image used in the README.
-│   ├── quality distribution.jpg                  <- quality distribution image used in the README.                             
+│   ├── 2.1 Data statistics.jpg                    <- data statistics summary used in the README
+│   ├── 2.2 Heatmap.jpg                            <- heatmap image used in the README
+│   ├── 2.3 Quality distribution.jpg               <- quality distribution image used in the README
+│   ├── 5.1 Evaluation.jpg                         <- model summary table used in the README
+│   ├── 6.1 Business value.jpg                     <- image used in the README                            
 │
 ├── LICENSE.txt                                   <- license
 ├── Red Wine Classification Project.ipynb         <- code
@@ -63,13 +63,13 @@ Dataset is from Kaggle: https://www.kaggle.com/datasets/yasserh/wine-quality-dat
 | **Quality**| potential target | int | Categorical value: range from 3 to 8. During the Data preparation process, we transform into binary values: above 6.5 is good; quall or below 6.5 is inferior.|
 
 * Statistics
- <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/Image/data%20statistics.jpg" width="600" >
+ <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/Image/2.1 Data%20statistics.jpg" width="600" >
 
 * Correlation Heatmap
- <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/Image/heatmap.jpg" width="400" >
+ <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/Image/2.2 Heatmap.jpg" width="400" >
 
 * Quality Distribution
- <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/Image/quality%20distribution.jpg" width="400" >  
+ <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/Image/2.3 Quality%20distribution.jpg" width="400" >  
 
 | Quality Score |   3 |   4 |   5 |   6 |   7 |   8 |
 | ------------- | --- | --- | --- | --- | --- | --- |
@@ -92,7 +92,7 @@ Dataset is from Kaggle: https://www.kaggle.com/datasets/yasserh/wine-quality-dat
 * Adaboost
 
 ## 5. Evaluation
- <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/Image/evaluation.jpg" width="500" >
+ <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/Image/5.1 Evaluation.jpg" width="500" >
 From the summary table, we can observe that AUC is not necessary to associate with high profits.
 
 * SVC has a low AUC score but yields the highest profits. However, AdaBoost has the highest AUC score but yields the lowest profits.
@@ -105,7 +105,7 @@ From the below graph, we can easily compare the business value between the ml mo
 1. RF classifier performance is better than the non-ml model.
 2. True positive rate has a positive relationship with expected profits because more good wine in the population yields more profits. Detail check with the information below the graph.
 3. Under the extreme case where the true positive rate is 0, meaning no good wine in the population, the non-ml model suffers a loss but the ml model can still make a profit. It's because ml model can predict red wine quality and discriminate the price. However, the non-ml model only produces one and only offer which is $75. Buy high sell low incurs a loss. 
-  <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/Image/business%20value.jpg" width="600" >
+  <img src="https://github.com/Taweilo/Red_Wine_Quality_Classification_Model/blob/main/Image/6.1 Business%20value.jpg" width="600" >
   
 * Limitation: <br>
 1. RF classifier is neither the most accurate nor the most profitable model. We recommend the user evaluate the business needs. 
